@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="">
@@ -33,10 +35,9 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<a href="/">首页</a>
-		<a href="/about/">关于</a>
-		<a href="/bolg/">博客</a>
-		<a href="/笔记/">笔记</a>
+		<Navigation />
+		<Footer />
+  </html>
 
     <h1>我的 Astro 学习博客</h1>
     <p>这是我的 博客</p>
