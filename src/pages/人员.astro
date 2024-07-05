@@ -4,7 +4,7 @@ import Card from '../components/Card.astro';
 import Footer from '../components/Footer.astro';
 ---
 
-<Layout title="Welcome to 十个勤天">
+<Layout title="助农板块">
 	<main>
 		<svg
 			class="astro-a"
@@ -34,51 +34,32 @@ import Footer from '../components/Footer.astro';
 				</linearGradient>
 			</defs>
 		</svg>
+	
+	
+    <h1>助农板块</h1>
+    <ul>
+      <li><a href="https://v.douyin.com/i6XRmfUe">仲麟人参果</a></li>
+                <img src="https://ts1.cn.mm.bing.net/th/id/R-C.57822c8019dbe7e3352fbe89233584f8?rik=IWdJQBCm4OuP4Q&riu=http%3a%2f%2fwww.gscn.com.cn%2fpic%2f003%2f016%2f080%2f00301608024_7586d425.jpg&ehk=cy7dJRoqf52mLwFcIRsaLAZmHyOn%2ftr7YMYn7mchMHA%3d&risl=&pid=ImgRaw&r=0" alt="仲麟">
+			<li><a href="https://v.douyin.com/i6XRmfUe">青龙板栗🌰</a></li>
+              <img src="https://ts1.cn.mm.bing.net/th/id/R-C.f63b5d2daeb7a8fe9601d0672ac63163?rik=pRJzc6zY4eJCTw&riu=http%3a%2f%2fwww.qlbaifeng.com%2fupload%2f2022-03%2f27%2fa_13-b6d4e.jpg&ehk=ZhpuJSQUtEZwwIigKjg23fRyZnj9IeNgukAM3pUtcl4%3d&risl=&pid=ImgRaw&r=0" alt="banli">
+
+     <h4>其他农产品敬请期待，也欢迎加入我们！！！</h4>
+		  <Footer />
     
-		<h1><a href="https://www.tianyancha.com/company/5923777199">十个勤天 <span class="text-gradient">农业有限公司</span></a></h1>
-		<h2>《种地吧少年》</h2>
-		
-		<p class="instructions">
-			十个勤天 (杭州) 农业发展有限责任公司，成立于2023年，位于浙江省杭州市，是一家以从事农、林、牧、渔专业及辅助性活动为主的企业。
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://www.douyin.com/user/MS4wLjABAAAA0-SOkCI7u7vO9aQT4AzyZD7Ev6XY8jmj1Ie9U_Edm0aneXVE4j3UF59pqhFRNfqR?enter_from=general_search&enter_method=general_search&extra_params=%7B%22search_params%22%3A%7B%22search_result_id%22%3A%221550725248985743%22%2C%22relation_tag%22%3A0%2C%22log_pb%22%3A%7B%22impr_id%22%3A%2220240705125108EDA77093CED63D74E329%22%7D%2C%22search_type%22%3A%22general%22%2C%22impr_id%22%3A%2220240705125108EDA77093CED63D74E329%22%2C%22search_id%22%3A%2220240705125108EDA77093CED63D74E329%22%2C%22search_keyword%22%3A%22%E5%8D%81%E4%B8%AA%E5%8B%A4%E5%A4%A9%E5%B0%8F%E5%8D%96%E9%93%BA%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%22%2C%22token_type%22%3A%22discover_list%22%7D%7D"
-				title="本公司产品"
-				body="该板块的内容主要是本公司自产商品：草莓酱、蜂蜜、玫瑰烙、即食龙虾尾，点击即可进入官方抖音进行了解。"
-			/>
-			<Card
-				href="https://baike.baidu.com/item/%E5%8D%81%E4%B8%AA%E5%8B%A4%E5%A4%A9/63616471"
-				title="本公司内部人员介绍"
-				body="十个勤天是《种地吧》综艺中十名嘉宾的组合名，由蒋敦豪、鹭卓、李耕耘、李昊、赵一博、卓沅、赵小童、何浩楠、陈少熙、王一珩十个人组成。"
-			/>
-			<Card
-				href="http://localhost:4321/%E4%BA%BA%E5%91%98"
-				title="助农板块"
-				body="本板块其中包括许多农作产品，帮助各地有意向的也可以加入我们"
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="尽情期待"
-				body="十个勤天农业有限公司期待您的加入 ❤️"
-			/>
-			
-		</ul>
-		<Footer />
 	</main>
 </Layout>
 
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-image: url('https://c-ssl.duitang.com/uploads/blog/202309/04/M6SexwP7cBpAdA5.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        min-height: 100vh;
-	}
+    a {
+            font-size: 24px; /* 增大字体大小 */
+            color: #1da072c7; /* 设置链接颜色 */
+            text-decoration: none; /* 去除下划线 */
+        }
+
+        /* 当鼠标悬停在链接上时的样式 */
+        a:hover {
+            text-decoration: underline; /* 添加下划线 */
+        }
 	main {
 		margin: auto;
 		padding: 1rem;
@@ -92,20 +73,17 @@ import Footer from '../components/Footer.astro';
 		position: absolute;
 		top: -32px;
 		left: 50%;
-		transform: translateX(-50%);
+		transform: translatex(-50%);
 		width: 220px;
 		height: auto;
-		z-index: -2;
+		z-index: -1;
 	}
 	h1 {
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
-		margin-bottom: 0em;
-	}
-	h2  {
-		text-align: center;
+		margin-bottom: 1em;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
@@ -139,3 +117,7 @@ import Footer from '../components/Footer.astro';
 		padding: 0;
 	}
 </style>
+
+
+
+		
